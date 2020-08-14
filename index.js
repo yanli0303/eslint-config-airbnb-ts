@@ -99,15 +99,6 @@ module.exports = {
         // https://eslint.org/docs/rules/prefer-exponentiation-operator
         'prefer-exponentiation-operator': 'error',
 
-        // import sorting
-        // https://eslint.org/docs/rules/sort-imports
-        'sort-imports': ['error', {
-            ignoreCase: false,
-            ignoreDeclarationSort: false,
-            ignoreMemberSort: false,
-            memberSyntaxSortOrder: ['none', 'all', 'single', 'multiple'],
-        }],
-
         // Disallow duplicate conditions in if-else-if chains
         // https://eslint.org/docs/rules/no-dupe-else-if
         'no-dupe-else-if': 'error',
