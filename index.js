@@ -1,5 +1,4 @@
 module.exports = {
-    extends: 'react-airbnb',
     rules: {
         // specify the maximum cyclomatic complexity allowed in a program
         complexity: ['error', 11],
