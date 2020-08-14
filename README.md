@@ -5,14 +5,17 @@ A shareable ESLint config based on `eslint-config-airbnb`.
 ## Usage
 
 ```sh
-yarn add --dev eslint eslint-config-airbnb eslint-plugin-import eslint-config-yan
+yarn add --dev eslint-config-yan
 # or
-npm install --save-dev eslint eslint-config-airbnb eslint-plugin-import eslint-config-yan
+npm install --save-dev eslint-config-yan
 ```
 
 ```js
 // .eslintrc.js
 {
-  extends: 'eslint-config-yan'
+  // The rules defined in this package are based on
+  // `eslint-config-airbnb`, it would be great if you
+  // extend from `airbnb`.
+  extends: ['airbnb', 'eslint-config-yan']
 }
 ```
