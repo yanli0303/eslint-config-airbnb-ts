@@ -135,15 +135,6 @@ module.exports = {
         // https://eslint.org/docs/rules/no-useless-backreference
         'no-useless-backreference': 'error',
 
-        // disallow magic numbers
-        // https://eslint.org/docs/rules/no-magic-numbers
-        'no-magic-numbers': ['error', {
-            ignore: [],
-            ignoreArrayIndexes: true,
-            enforceConst: true,
-            detectObjects: false,
-        }],
-
         // https://eslint.org/docs/rules/prefer-regex-literals
         'prefer-regex-literals': 'error',
     }

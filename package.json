@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-yan",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A shareable ESLint config based on `eslint-config-airbnb`.",
   "main": "index.js",
   "repository": {
