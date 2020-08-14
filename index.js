@@ -1,5 +1,8 @@
 module.exports = {
     rules: {
+        indent: ["error", 2],
+        "no-multi-spaces": "error",
+
         // specify the maximum cyclomatic complexity allowed in a program
         complexity: ['error', 11],
 
